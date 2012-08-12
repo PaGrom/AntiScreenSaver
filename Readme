@@ -1,0 +1,11 @@
+AntiScreenSaver moves your mouse down for 1 pixel each minute.
+
+Dependence:
+	 libX11
+	 	sudo apt-get install libX11-dev
+	 	
+	 python-xlib
+	 	sudo aptitude install python-xlib
+	 	
+	 pymouse
+	 	https://github.com/pepijndevos/PyMouse
