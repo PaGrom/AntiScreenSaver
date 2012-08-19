@@ -3,7 +3,7 @@
 from pymouse import PyMouse
 import time
 
+mouse = PyMouse()
 while 1:
-	mouse = PyMouse()
 	mouse.move(mouse.position()[0], mouse.position()[1]+1)
 	time.sleep(60)
